@@ -1,0 +1,43 @@
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=350m; support was removed in 8.0
+[YourKit Java Profiler 2014 build 14112] Log file: /home/derek/.yjp/log/WebIde95-20373.log
+log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+[  88361]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+No restarter found.
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=350m; support was removed in 8.0
+[YourKit Java Profiler 2014 build 14112] Log file: /home/derek/.yjp/log/WebIde95-20612.log
+log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+[ 266740]   WARN - rationStore.ComponentStoreImpl -  
+java.lang.NullPointerException
+	at com.intellij.xdebugger.impl.breakpoints.XBreakpointManagerImpl.loadState(XBreakpointManagerImpl.java:407)
+	at com.intellij.xdebugger.impl.XDebuggerManagerImpl.loadState(XDebuggerManagerImpl.java:343)
+	at com.intellij.xdebugger.impl.XDebuggerManagerImpl.loadState(XDebuggerManagerImpl.java:68)
+	at com.intellij.configurationStore.ComponentStoreImpl.a(ComponentStoreImpl.kt:266)
+	at com.intellij.configurationStore.ComponentStoreImpl.a(ComponentStoreImpl.kt:373)
+	at com.intellij.configurationStore.ComponentStoreImpl.reinitComponents(ComponentStoreImpl.kt:416)
+	at com.intellij.configurationStore.ComponentStoreImpl.reload(ComponentStoreImpl.kt:405)
+	at com.intellij.configurationStore.StoreAwareProjectManagerKt.reloadStore(StoreAwareProjectManager.kt:226)
+	at com.intellij.configurationStore.StoreAwareProjectManager$restartApplicationOrReloadProjectTask$1.run(StoreAwareProjectManager.kt:75)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.a(LaterInvocator.java:337)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:321)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at com.intellij.ide.IdeEventQueue.f(IdeEventQueue.java:861)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:649)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:380)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[ 281422]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
