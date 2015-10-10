@@ -1,12 +1,13 @@
 {
-  "autoload":{
-    "psr-4":{
-      "Betteryourweb\\Database\\":"src/Database/",
-      "Betteryourweb\\Helpers\\":"src/Helpers/"
-    }
-  },
-  "require": {
-    "symfony/console": "^2.7",
-    "symfony/var-dumper": "^2.7"
-  }
+    "name": "betteryourweb/database",
+    "description": "PHP PDO Database Abstraction Class",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Derek Williams",
+            "email": "betteryourweb@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
 }
